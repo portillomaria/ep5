@@ -1,0 +1,36 @@
+header{
+    grid-area: cabe
+    border 2px red solid;
+    position:relative
+    padding 10px;
+}
+aside{
+    grid-area: brac;
+    border: 2px blue solid;
+}
+main{
+    grid-area: prin;
+    border: 2px pink 2px solid;
+}
+
+p{
+    border: green 2px solid;
+}
+footer{
+    grid-area: roda;
+    border: yellowgreen 2px solid; 
+}
+
+body{
+    display: grid;
+    grid-template-areas: 
+    "cabe cabe cabe"
+    "brac brac brac"
+    "roda roda roda";
+    grid-template-rows: 200px auto 210px;
+    grid-template-columns: 200px auto auto;
+}
+header img{
+    height: 190px;
+    width: auto;
+}
