@@ -1,8 +1,8 @@
 header{
-    grid-area: cabe
-    border 2px red solid;
-    position:relative
-    padding 10px;
+    grid-area: cabe;
+    border: 2px red solid;
+    position: relative;
+    padding: 10px;
 }
 aside{
     grid-area: brac;
@@ -25,7 +25,7 @@ body{
     display: grid;
     grid-template-areas: 
     "cabe cabe cabe"
-    "brac brac brac"
+    "brac prin prin"
     "roda roda roda";
     grid-template-rows: 200px auto 210px;
     grid-template-columns: 200px auto auto;
@@ -33,4 +33,21 @@ body{
 header img{
     height: 190px;
     width: auto;
+}
+header nav{
+    border: brown 2px solid;
+    position: absolute;
+    right: 0px;
+    top: 100px;
+}
+
+header li{
+    display: inline;
+    margin: 20px;
+}
+
+header a{
+    border: 2px black solid;
+    margin: 5px;
+    border-radius: 25px;
 }
