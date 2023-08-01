@@ -51,3 +51,41 @@ header a{
     margin: 5px;
     border-radius: 25px;
 }
+
+.cbody{
+    background-image: linear-gradient(45deg, red, orange, yellow, green, lightblue, blue, purple);
+    color: #990000;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+.letra_normal label{
+    font-weight: 100;
+}
+
+.bloco label{
+    display: block;
+}
+.bloco{
+    float: left;
+    margin-right: 5px;
+}
+
+input, select, textarea, button{
+    border-radius: 5px;
+    color: #b31415;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.letra_normal input{
+    box-shadow: none;
+}
+
+fieldset{
+    border: 0;
+}

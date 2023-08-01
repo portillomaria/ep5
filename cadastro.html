@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="cbody">
+    <div>
+        <h1>Cadastro de Alunos</h1>
+        <p>Preencha os dados completos para cadastro</p>
+    </div>
+
+    <form action="#" method="post">
+        <fieldset>
+            <div class="bloco">
+                <label for="nome_aluno">Nome</label>
+                <input type="text" name="nome_aluno" id="nome_aluno" placeholder="primeiro nome">
+            </div>
+            <div class="bloco">
+                <label for="sobrenome_aluno">Sobrenome</label>
+                <input type="text" name="sobrenome_aluno" id="sobrenome_aluno">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="bloco">
+                <label for="email_aluno">E-mail</label>
+                <input type="email" name="email_aluno" id="email_aluno">
+            </div>
+            <div class="bloco">
+                <label for="senha_aluno">Senha</label>
+                <input type="password" name="senha_aluno" id="senha_aluno">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="bloco">
+                <label>Qual a Sua Turma</label>
+                <div class="letra_normal">
+                    <label>
+                        <input type="radio" name="turma_aluno" id="turma_aluno" value="2anem">2 A NEM
+                    </label>
+                    <label>
+                        <input type="radio" name="turma_aluno" id="turma_aluno" value="2bnem">2 B NEM
+                    </label>
+                    <label>
+                        <input type="radio" name="turma_aluno" id="turma_aluno" value="2ads">2 A DS
+                    </label>
+                    <label>
+                        <input type="radio" name="turma_aluno" id="turma_aluno" value="2bds">2 B DS
+                    </label>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <label for="melhor_materia">Qual a Melhor Matéria?</label>
+            <select name="melhor_materia" id="melhor_materia">
+                <option selected disabled value="">Selecione</option>
+                <option>Matemática</option>
+                <option>Português</option>
+                <option>Física</option>
+                <option>Quimica</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <label for="">Quais os melhores dias da Semana</label>
+            <div class="letra_normal">
+                <input type="checkbox" name="dia_semana" id="dia_semana" value="segunda">
+                <label for="segunda">Segunda-feira</label>
+                <input type="checkbox" name="dia_semana" id="dia_semana" value="terca">
+                <label for="terca">Terça-feira</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <div class="bloco">
+                <label for="">Conte um pouco da sua história:</label>
+                <textarea name="historia" id="histora" cols="48" rows="10"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+
+</body>
+</html>
